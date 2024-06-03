@@ -17,9 +17,7 @@
 			session.setAttribute("sessionId", mid);  //세션에 아이디 올리기
 			session.setAttribute("sessionPw", mpw);  //세션에 비번 올리기
 			session.setAttribute("ValidMem", "yes"); //로그인 여부만 확인용 값 올리기	
-			
-			
-			
+						
 			out.println("로그인 성공");
 		} else {
 			out.println("로그인 실패");		
