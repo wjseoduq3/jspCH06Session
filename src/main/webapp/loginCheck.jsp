@@ -32,11 +32,13 @@
 		// } 
 	%>
 	<br>
+	<a href="sessionTest.jsp">세션정보테스트</a>
+	<br>
 	<a href="logout.jsp">로그아웃</a>
 	<br>
 	<%
 		} else { // 거짓이면 비로그인상태
-			out.println("로그인 페이지로 이동하세요.");	
+			out.println("로그인하지 않은 상태임!! 로그인 페이지로 이동하세요.");	
 		}
 	%>
 </body>
